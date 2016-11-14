@@ -26,8 +26,8 @@
                 android:hint="Team 1"
                 android:imeOptions="actionDone"
                 android:inputType="text"
-                android:background="#f97a43"
-                android:textColor="#FFFFFF" />
+                android:background="#D50000"
+                android:textColor="#fff" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -36,18 +36,19 @@
                 android:textSize="26sp"
                 android:text="Score:"
                 android:gravity="center"
-                android:background="#501800"
-                android:textColor="#FFFFFF"/>
+                android:background="#FFEB3B"
+                android:textColor="#fff"/>
 
             <TextView
                 android:id="@+id/points"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="20dp"
+                android:text=""
                 android:textSize="50sp"
                 android:gravity="center"
-                android:background="#ffbf62"
-                android:textColor="#FFFFFF"/>
+                android:background="#3F51B5"
+                android:textColor="#fff"/>
 
             <Button
                 android:layout_width="match_parent"
@@ -77,11 +78,12 @@
                 android:hint="Team 2"
                 android:imeOptions="actionDone"
                 android:inputType="text"
-                android:background="#944d0e"
-                android:textColor="#FFFFFF" />
+                android:background="#4CAF50"
+                android:textColor="#fff"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="20dp"
-                android:textSize=
+                android:textSize="28dp"
+                
